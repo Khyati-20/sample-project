@@ -1,0 +1,1 @@
+Simple CRUD application using Spring MVC and Hibernate MySQL -  http://javawebtutor.com/articles/spring/spring-mvc-hibernate-crud-example.php
