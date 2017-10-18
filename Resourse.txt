@@ -1,1 +1,2 @@
 Simple CRUD application using Spring MVC and Hibernate MySQL -  http://javawebtutor.com/articles/spring/spring-mvc-hibernate-crud-example.php
+Library Management System in Spring MVC -    https://github.com/shubhamvadhera/library-management-spring
