@@ -11,32 +11,32 @@ public class Student {
 		@Id
 		@Column(name="Sid",unique=true,nullable= true)
 		private String studentId;
-		public Boolean getPenalty() {
-			return penalty;
-		}
-		public void setPenalty(Boolean penalty) {
-			this.penalty = penalty;
-		}
-		public Boolean getStatus() {
-			return status;
-		}
-		public void setStatus(Boolean status) {
-			this.status = status;
-		}
-		public Boolean getCount() {
-			return count;
-		}
-		public void setCount(Boolean count) {
-			this.count = count;
-		}
+	
 		private String studentName;
 		private String studentClass;
 		private String studentEmail;
-		private Boolean penalty;
-		private Boolean status;
-		private Boolean count;
+		private String penalty;
+		private String status;
+		private String count;
 		
-		
+		public String getPenalty() {
+			return penalty;
+		}
+		public void setPenalty(String penalty) {
+			this.penalty = penalty;
+		}
+		public String getStatus() {
+			return status;
+		}
+		public void setStatus(String status) {
+			this.status = status;
+		}
+		public String getCount() {
+			return count;
+		}
+		public void setCount(String count) {
+			this.count = count;
+		}
 		public String getStudentId() {
 			return studentId;
 		}

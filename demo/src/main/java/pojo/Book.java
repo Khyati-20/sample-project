@@ -16,8 +16,8 @@ public class Book {
 	private String bookName;
 	private String bookAuthor;
 	private String bookInfo;
-	private Integer max;
-	private Integer available;
+	private String max;
+	private String available;
 	public String getBookId() {
 		return bookId;
 	}
@@ -42,18 +42,19 @@ public class Book {
 	public void setBookInfo(String bookInfo) {
 		this.bookInfo = bookInfo;
 	}
-	public Integer getMax() {
+	public String getMax() {
 		return max;
 	}
-	public void setMax(Integer max) {
+	public void setMax(String max) {
 		this.max = max;
 	}
-	public Integer getAvailable() {
+	public String getAvailable() {
 		return available;
 	}
-	public void setAvailable(Integer available) {
+	public void setAvailable(String available) {
 		this.available = available;
 	}
+
 	
 	
 	
