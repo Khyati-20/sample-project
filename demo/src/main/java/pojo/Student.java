@@ -11,7 +11,6 @@ public class Student {
 		@Id
 		@Column(name="Sid",unique=true,nullable= true)
 		private String studentId;
-	
 		private String studentName;
 		private String studentClass;
 		private String studentEmail;
@@ -19,7 +18,19 @@ public class Student {
 		private String status;
 		private String count;
 		
-		public String getPenalty() {
+		
+	
+		public Student(String studentId, String studentName, String studentClass, String studentEmail, String penalty,
+				String status, String count) {
+			super();
+			this.studentId = studentId;
+			this.studentName = studentName;
+			this.studentClass = studentClass;
+			this.studentEmail = studentEmail;
+			this.penalty = penalty;
+			this.status = status;
+			this.count = count;
+		}public String getPenalty() {
 			return penalty;
 		}
 		public void setPenalty(String penalty) {

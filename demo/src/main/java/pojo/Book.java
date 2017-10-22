@@ -18,6 +18,16 @@ public class Book {
 	private String bookInfo;
 	private String max;
 	private String available;
+	public Book(String bookId, String bookName, String bookAuthor, String bookInfo, String max, String available) {
+		super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookAuthor = bookAuthor;
+		this.bookInfo = bookInfo;
+		this.max = max;
+		this.available = available;
+	}
+	
 	public String getBookId() {
 		return bookId;
 	}
